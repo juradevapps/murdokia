@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Murdokia</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --primary: #c25e00;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.65;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 48px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
+
+        .header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: #ffedd5;
+            color: var(--primary);
+            font-size: 0.85rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 999px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: #0f172a;
+            margin-bottom: 8px;
+            font-weight: 800;
+        }
+
+        .last-updated {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            color: #0f172a;
+            margin-top: 36px;
+            margin-bottom: 14px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #334155;
+        }
+
+        ul {
+            margin-bottom: 18px;
+            padding-left: 24px;
+            color: #334155;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .contact-box {
+            background-color: #f8fafc;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-top: 24px;
+        }
+
+        .contact-box p {
+            margin-bottom: 6px;
+        }
+
+        .contact-box a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 48px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 16px 12px;
+            }
+            .container {
+                padding: 24px 20px;
+            }
+            h1 {
+                font-size: 1.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <span class="badge">Murdokia • JuraDev</span>
+        <h1>Política de Privacidad</h1>
+        <p class="last-updated">Última actualización: 8 de octubre de 2026</p>
+    </div>
+
+    <p>Esta Política de Privacidad describe cómo <strong>JuraDev</strong> (en adelante, "el Desarrollador" o "nosotros") trata y protege la información en la aplicación móvil de lógica y deducción <strong>Murdokia</strong> (en adelante, "la Aplicación").</p>
+
+    <p>Nos comprometemos a garantizar la total privacidad de los usuarios. Murdokia ha sido diseñada para disfrutarse sin necesidad de recopilar ni procesar datos de carácter personal.</p>
+
+    <h2>1. Recopilación y Uso de Datos Personales</h2>
+    <p><strong>Murdokia no recopila, almacena, transmite ni comparte ningún tipo de información personal identificable.</strong></p>
+    <p>La Aplicación no solicita registros de cuenta, nombre, correo electrónico, identificadores de dispositivo, ubicación ni número de teléfono. Puedes jugar sin proporcionar ningún dato.</p>
+
+    <h2>2. Almacenamiento Local en el Dispositivo</h2>
+    <p>La Aplicación únicamente guarda información técnica de progreso de forma <strong>local en la memoria de tu dispositivo</strong> mediante el sistema estándar de preferencias (<em>SharedPreferences</em>). Estos datos comprenden exclusivamente:</p>
+    <ul>
+        <li>Progreso de los casos y puzles (resueltos, en curso o no iniciados).</li>
+        <li>Estado de colocación de los personajes en el tablero de deducción.</li>
+        <li>Tiempos registrados en el cronómetro del caso.</li>
+        <li>Preferencias del juego (modo oscuro, vibración háptica, ayudas visuales).</li>
+        <li>Contador de racha diaria de juego.</li>
+    </ul>
+    <p>Estos datos nunca abandonan tu teléfono ni se envían a servidores externos. Si desinstalas la Aplicación o borras sus datos desde los Ajustes de Android, esta información se eliminará automáticamente.</p>
+
+    <h2>3. Servicios y Herramientas de Terceros</h2>
+    <p>La Aplicación no integra herramientas de analítica externa (como Google Analytics o Firebase), ni redes publicitarias de terceros, ni tecnologías de rastreo entre aplicaciones.</p>
+
+    <h2>4. Permisos del Dispositivo</h2>
+    <p>Murdokia no solicita permisos sensibles del sistema operativo Android (como cámara, micrófono, libreta de contactos, almacenamiento general o geolocalización).</p>
+
+    <h2>5. Privacidad de los Menores</h2>
+    <p>Murdokia es un juego apto para todos los públicos y familias. Dado que no recopilamos ningún tipo de dato personal, cumplimos rigurosamente con las normativas internacionales de protección de menores en entornos digitales, incluyendo COPPA (Children's Online Privacy Protection Act) y el RGPD (Reglamento General de Protección de Datos).</p>
+
+    <h2>6. Cambios en esta Política</h2>
+    <p>Podemos actualizar esta Política de Privacidad en caso de incorporar nuevas funcionalidades en versiones futuras. Cualquier modificación sustancial se publicará en esta misma página web con la fecha de entrada en vigor actualizada.</p>
+
+    <h2>7. Contacto</h2>
+    <p>Si tienes cualquier duda, pregunta o consulta sobre esta política o sobre el juego, puedes ponerte en contacto con el desarrollador a través de:</p>
+    <div class="contact-box">
+        <p><strong>Desarrollador:</strong> JuraDev</p>
+        <p><strong>Correo electrónico:</strong> <a href="mailto:murdokiaapp@gmail.com">murdokiaapp@gmail.com</a></p>
+    </div>
+
+    <footer>
+        &copy; 2026 JuraDev. Todos los derechos reservados.
+    </footer>
+</div>
+
+</body>
+</html>
